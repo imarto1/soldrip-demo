@@ -72,15 +72,13 @@ const App = () => {
             transition={{ duration: 0.3 }}
           >
             <Routes>
-              {pages.map((page, index) => (
-                <Route
-                  key={page.path}
-                  path={page.path}
-                  element={
-                    <page.component />
-                  }
-                />
-              ))}
+              <Route path="/" element={<WelcomePage />} />
+              <Route path="/balcony-info" element={<BalconyInfoPage />} />
+              <Route path="/preferences" element={<GardenPreferencesPage />} />
+              <Route path="/recommendations" element={<AIRecommendationsPage />} />
+              <Route path="/configurator" element={<VisualConfiguratorPage />} />
+              <Route path="/visualization" element={<VisualizationPage />} />
+              <Route path="/quote" element={<QuotePage />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </motion.div>

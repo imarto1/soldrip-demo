@@ -36,9 +36,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png">
     <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest">
     
-    <!-- GitHub Pages specific -->
-    <base href="%PUBLIC_URL%/">
-    
     <title>Balcony Garden AI - Intelligent Garden Design System</title>
     
     <style>
@@ -101,6 +98,13 @@
           sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Root container */
+      #root {
+        min-height: 100vh;
       }
     </style>
   </head>
@@ -138,6 +142,7 @@
     
     <div id="root"></div>
     
+    <!-- React Scripts -->
     <script>
       // Hide loading screen when React app loads
       window.addEventListener('load', function() {
