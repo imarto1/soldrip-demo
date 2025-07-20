@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/balcony-garden-ai/static/css/main.b1c4008b.css",
+    "main.js": "/balcony-garden-ai/static/js/main.dbf81d34.js",
+    "index.html": "/balcony-garden-ai/index.html",
+    "main.b1c4008b.css.map": "/balcony-garden-ai/static/css/main.b1c4008b.css.map",
+    "main.dbf81d34.js.map": "/balcony-garden-ai/static/js/main.dbf81d34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1c4008b.css",
+    "static/js/main.dbf81d34.js"
+  ]
+}
