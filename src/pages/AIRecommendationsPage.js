@@ -6,9 +6,7 @@ import {
   Layout, 
   Sun,
   Wind,
-  CloudRain,
   CheckCircle,
-  Clock,
   TrendingUp
 } from 'lucide-react';
 import useGardenStore from '../store/gardenStore';

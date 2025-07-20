@@ -3,7 +3,6 @@ import {
   Layout, 
   Sprout, 
   Droplets, 
-  Move,
   Plus,
   Trash2,
   Eye,

@@ -7,10 +7,8 @@ import {
   Wind, 
   Palette, 
   Calculator,
-  Download,
   Eye,
-  Globe,
-  DollarSign
+  Globe
 } from 'lucide-react';
 import useGardenStore from '../store/gardenStore';
 import { useTranslation } from '../utils/useTranslation';
