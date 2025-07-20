@@ -2,7 +2,7 @@
   "name": "balcony-garden-ai",
   "version": "1.0.0",
   "description": "AI-powered balcony garden design system",
-  "homepage": "https://yourusername.github.io/balcony-garden-ai",
+  "homepage": "https://imartol1.github.io/balcony-garden-ai",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
